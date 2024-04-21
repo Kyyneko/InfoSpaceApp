@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpaceApp"
+        tools:targetApi="31" >
+        <activity
+            android:name=".main.Earth"
+            android:exported="false" />
+        <activity
+            android:name=".details.VenusDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.UranusDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.SaturnusDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.NeptunusDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.MerkuriusDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.MarsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.JupiterDetails"
+            android:exported="false" />
+        <activity
+            android:name=".details.EarthDetails"
+            android:exported="false" />
+        <activity
+            android:name=".main.Neptunus"
+            android:exported="false" />
+        <activity
+            android:name=".main.Uranus"
+            android:exported="false" />
+        <activity
+            android:name=".main.Saturnus"
+            android:exported="false" />
+        <activity
+            android:name=".main.Jupiter"
+            android:exported="false" />
+        <activity
+            android:name=".main.Mars"
+            android:exported="false" />
+        <activity
+            android:name=".main.Venus"
+            android:exported="false" />
+        <activity
+            android:name=".main.Merkurius"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

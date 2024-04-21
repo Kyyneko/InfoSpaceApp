@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpaceApp</string>
+    <string name="explore">Explore</string>
+    <string name="solar_system">Solar System</string>
+</resources>

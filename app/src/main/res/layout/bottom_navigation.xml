@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/planetLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/earth"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/earth"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/merkurius"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/merkurius"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/venus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/venus"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/mars"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mars"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/jupiter"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jupiter"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/saturnus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/saturn"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/uranus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/uranus"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/neptunus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/neptunus">
+            </ImageView>
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
