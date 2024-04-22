@@ -96,7 +96,7 @@ public class NeptunusDetails extends AppCompatActivity implements View.OnClickLi
             intent = new Intent(this, Earth.class);
         } else if (v.getId() == R.id.saturnus) {
             // Menambahkan data planet Saturnus ke ArrayList planets
-            planets.add(DataSourcePlanet.getPlanets().get(6));
+            planets.add(DataSourcePlanet.getPlanets().get(5));
             intent = new Intent(this, Saturnus.class);
         } else if (v.getId() == R.id.mars) {
             // Menambahkan data planet Mars ke ArrayList planets
@@ -112,11 +112,11 @@ public class NeptunusDetails extends AppCompatActivity implements View.OnClickLi
             intent = new Intent(this, Merkurius.class);
         } else if (v.getId() == R.id.uranus) {
             // Menambahkan data planet Uranus ke ArrayList planets
-            planets.add(DataSourcePlanet.getPlanets().get(7));
+            planets.add(DataSourcePlanet.getPlanets().get(6));
             intent = new Intent(this, Uranus.class);
         } else if (v.getId() == R.id.venus) {
             // Menambahkan data planet Venus ke ArrayList planets
-            planets.add(DataSourcePlanet.getPlanets().get(5));
+            planets.add(DataSourcePlanet.getPlanets().get(7));
             intent = new Intent(this, Venus.class);
         }
 
@@ -126,3 +126,4 @@ public class NeptunusDetails extends AppCompatActivity implements View.OnClickLi
         }
     }
 }
+

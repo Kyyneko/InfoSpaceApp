@@ -85,7 +85,7 @@ public class Jupiter extends AppCompatActivity implements View.OnClickListener {
         ArrayList<Planet> planets = new ArrayList<>();
 
         if (v.getId() == R.id.saturnus) {
-            planets.add(DataSourcePlanet.getPlanets().get(6));
+            planets.add(DataSourcePlanet.getPlanets().get(5));
             intent = new Intent(this, Saturnus.class);
         } else if (v.getId() == R.id.mars) {
             planets.add(DataSourcePlanet.getPlanets().get(2));
@@ -97,13 +97,13 @@ public class Jupiter extends AppCompatActivity implements View.OnClickListener {
             planets.add(DataSourcePlanet.getPlanets().get(3));
             intent = new Intent(this, Merkurius.class);
         } else if (v.getId() == R.id.uranus) {
-            planets.add(DataSourcePlanet.getPlanets().get(7));
+            planets.add(DataSourcePlanet.getPlanets().get(6));
             intent = new Intent(this, Uranus.class);
         } else if (v.getId() == R.id.earth) {
             planets.add(DataSourcePlanet.getPlanets().get(0));
             intent = new Intent(this, Earth.class);
         } else if (v.getId() == R.id.venus) {
-            planets.add(DataSourcePlanet.getPlanets().get(5));
+            planets.add(DataSourcePlanet.getPlanets().get(7));
             intent = new Intent(this, Venus.class);
         } else if (v.getId() == R.id.btn_detail) {
             planets.add(DataSourcePlanet.getPlanets().get(1));

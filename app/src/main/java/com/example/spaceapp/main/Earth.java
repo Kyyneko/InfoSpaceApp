@@ -120,7 +120,7 @@ public class Earth extends AppCompatActivity implements View.OnClickListener {
 
         if (v.getId() == R.id.saturnus) {
             // Mendapatkan data planet Saturnus dari DataSourcePlanet
-            planets.add(DataSourcePlanet.getPlanets().get(6));
+            planets.add(DataSourcePlanet.getPlanets().get(5));
             intent = new Intent(this, Saturnus.class);
         } else if (v.getId() == R.id.mars) {
             // Mendapatkan data planet Mars dari DataSourcePlanet
@@ -136,7 +136,7 @@ public class Earth extends AppCompatActivity implements View.OnClickListener {
             intent = new Intent(this, Merkurius.class);
         } else if (v.getId() == R.id.uranus) {
             // Mendapatkan data planet Uranus dari DataSourcePlanet
-            planets.add(DataSourcePlanet.getPlanets().get(7));
+            planets.add(DataSourcePlanet.getPlanets().get(6));
             intent = new Intent(this, Uranus.class);
         } else if (v.getId() == R.id.jupiter) {
             // Mendapatkan data planet Jupiter dari DataSourcePlanet
@@ -144,7 +144,7 @@ public class Earth extends AppCompatActivity implements View.OnClickListener {
             intent = new Intent(this, Jupiter.class);
         } else if (v.getId() == R.id.venus) {
             // Mendapatkan data planet Venus dari DataSourcePlanet
-            planets.add(DataSourcePlanet.getPlanets().get(5));
+            planets.add(DataSourcePlanet.getPlanets().get(7));
             intent = new Intent(this, Venus.class);
         } else if (v.getId() == R.id.btn_detail) {
             // Menambahkan data planet Earth ke ArrayList planets

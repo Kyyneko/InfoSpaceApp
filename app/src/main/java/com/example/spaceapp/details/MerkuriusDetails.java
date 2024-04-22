@@ -28,7 +28,7 @@ import java.util.ArrayList;
 
 public class MerkuriusDetails extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView earth, saturnus, mars, neptunus, merkurius, uranus, jupiter, venus;
+    private ImageView earth, saturnus, mars, neptunus, merkurius, uranus, jupiter, venus;
     private ImageView planetImg, image1, image2, image3;
     private TextView content;
 
@@ -96,7 +96,7 @@ public class MerkuriusDetails extends AppCompatActivity implements View.OnClickL
             intent = new Intent(this, Earth.class);
         } else if (v.getId() == R.id.saturnus) {
             // Menambahkan data planet Saturnus ke ArrayList planets
-            planets.add(DataSourcePlanet.getPlanets().get(6));
+            planets.add(DataSourcePlanet.getPlanets().get(5));
             intent = new Intent(this, Saturnus.class);
         } else if (v.getId() == R.id.mars) {
             // Menambahkan data planet Mars ke ArrayList planets
@@ -112,12 +112,15 @@ public class MerkuriusDetails extends AppCompatActivity implements View.OnClickL
             intent = new Intent(this, Merkurius.class);
         } else if (v.getId() == R.id.uranus) {
             // Menambahkan data planet Uranus ke ArrayList planets
-            planets.add(DataSourcePlanet.getPlanets().get(7));
+            planets.add(DataSourcePlanet.getPlanets().get(6));
             intent = new Intent(this, Uranus.class);
         } else if (v.getId() == R.id.venus) {
             // Menambahkan data planet Venus ke ArrayList planets
-            planets.add(DataSourcePlanet.getPlanets().get(5));
+            planets.add(DataSourcePlanet.getPlanets().get(7));
             intent = new Intent(this, Venus.class);
+        } else if (v.getId() == R.id.jupiter) {
+            planets.add(DataSourcePlanet.getPlanets().get(1));
+            intent = new Intent(this, Jupiter.class);
         }
 
         if (intent != null) {
